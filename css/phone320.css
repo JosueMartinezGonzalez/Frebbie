@@ -1,0 +1,30 @@
+.header__list--option {
+    width: 50px;
+}
+.header__list--option a {
+    display: none;
+}
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+.info__profile {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.info__profile--user img {
+    display: none;
+}
+.info__analytics {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+}
+.info__analytics--country {
+    grid-gap: 10px;
+}
+
+.member {
+    height: 100px;
+}

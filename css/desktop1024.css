@@ -1,0 +1,14 @@
+.info__profile--user {
+    justify-content: space-evenly;
+}
+.info__profile--user .profile--user--name {
+    display: none;
+}
+.info__analytics {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.info__world {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+}
